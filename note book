@@ -1,207 +1,132 @@
-Amazon Simple Notification Service: 0
-Tax: 364.04
-Amazon GuardDuty: 36.6963065035
-CodeBuild: 0.060375
-Amazon FSx: 0.5929321202
-AmazonCloudWatch: 1064.6881865267
-AWS Key Management Service: 0.8246869064
-Amazon Simple Workflow Service: 0.0000134235
-AWS CodePipeline: 0.03381
-Amazon Elastic Container Service: 0
-AWS Lambda: 0
-Amazon Simple Storage Service: 0.1186390033
-Amazon Glacier: 0.000000078
-AWS CloudTrail: 0
-Amazon Virtual Private Cloud: 149.3159539342
-EC2 - Other: 28.7682659983
-Amazon Relational Database Service: 79.2104431886
-Common EC2 Services: 1019.9399999999998
-AWS HealthImaging: 0.0005474934
-Amazon EC2 Container Registry (ECR): 3.9935322675
-Amazon Elastic Compute Cloud - Compute: 0
-AWS Secrets Manager: 1.2746297986
-Amazon Simple Queue Service: 0.3635958386
-AWS Cost Explorer: 1.0143
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.awssdk.http.apache.ApacheHttpClient  : SSL Certificate verification is disabled. This is not a safe setting and should only be used for testing.
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:23.195+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:23.213+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:23.213+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:23.213+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:23.213+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:23.213+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:24.019+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:24.019+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:24.019+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:24.019+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:24.019+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:24.741+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:24.741+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:24.741+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:24.741+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:24.741+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:25.420+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:25.420+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:25.420+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:25.420+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:25.420+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-********----->: Profile=AmeriBen-sit | Env=SIT
-Model contents R12 :
-Product$P360: 2.2709417837
-Product$IPLUS: 170.9971471402
-Product$FSX-VOL1: 85.0878622304
-Product$COMMON: 596.5897358285
-Product$QLIK-SENSE: 192.2672285484
-Product$QLIK-COMPOSE: 370.1301729433
-Product$INSITZ: 21.6351342792
-Product$WPLUS: 26.560677857
-Product$: 205.1740349289
-Product$IPLUS-API: 25.8195627312
-Product$QLIK-REPLICATE: 434.7214866158
-Product$IPLUSAPI: 0.3229740508
-Product$EDIFECS: 31.4314453288
-Product$DB-SERVER2: 547.0501623891
-Product$DB-SERVER1: 582.9910265142
-Model contents R13 :
-Product$: 0
-Product$IPLUS: 337.8178501944
-Product$IPLUS-API: 42.2358187001
-Product$QLIK-REPLICATE: 145.6770862329
-Product$QLIK-SENSE: 192.3859964893
-Product$QLIK-COMPOSE: 145.523230447
-Product$EDIFECS: 219.5461043999
-Product$DB-SERVER2: 219.5461043999
-Product$INSITZ: 17.8826222237
-Product$DB-SERVER1: 219.5461044002
-Product$WPLUS: 73.577322
-Model contents H4 & H5:
-Usage: 3266.6795931695
-Bundled Discount: 0
-Enterprise Discount Program Discount: 0
-SavingsPlanCoveredUsage: 1613.7382394874
-SavingsPlanNegation: 0
-Tax: 26.37
-Model contents R14 :
-AWS Step Functions: 0.0000181248
-Amazon API Gateway: 0.4359749569
-AWS CloudFormation: 0
-Amazon Simple Email Service: 0.1534721464
-AWS Glue: 0.00007567
-Amazon Simple Notification Service: 0
-Tax: 26.37
-Amazon GuardDuty: 45.0115468563
-CodeBuild: 0.648025
-Amazon FSx: 4.0476808306
-AmazonCloudWatch: 28.2049300118
-AWS Key Management Service: 0.0150213
-Amazon Simple Workflow Service: 0.0000151303
-AWS CodePipeline: 0.30912
-AWS CloudShell: 0.0000000672
-Amazon Elastic Container Service: 0
-AWS Lambda: 0
-Amazon Simple Storage Service: 0.0741168182
-Amazon Glacier: 0.0000000458
-AWS CloudTrail: 0
-Amazon Virtual Private Cloud: 94.617364508
-EC2 - Other: 1.6159746092
-Common EC2 Services: 773.5600000000001
-AWS HealthImaging: 0.0002737322
-Amazon EC2 Container Registry (ECR): 0.5924577785
-Amazon Elastic Compute Cloud - Compute: 0
-AWS Secrets Manager: 0.9272127776
-Amazon Simple Queue Service: 1.1042545651
-AWS Cost Explorer: 1.0465
-2026-06-29T10:55:26.171+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.awssdk.http.apache.ApacheHttpClient  : SSL Certificate verification is disabled. This is not a safe setting and should only be used for testing.
-2026-06-29T10:55:26.173+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:26.173+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:26.173+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:26.173+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:26.173+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:26.181+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:26.181+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:26.181+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:26.181+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:26.181+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:26.990+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:26.990+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:26.990+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:26.990+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:26.990+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:27.694+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:27.694+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:27.694+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:27.694+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:27.694+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-2026-06-29T10:55:28.568+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_access_key_id' detected on line 147. The later one in the file will be used.
-2026-06-29T10:55:28.568+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'aws_secret_access_key' detected on line 148. The later one in the file will be used.
-2026-06-29T10:55:28.568+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'region' detected on line 149. The later one in the file will be used.
-2026-06-29T10:55:28.568+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'company_name' detected on line 150. The later one in the file will be used.
-2026-06-29T10:55:28.568+05:30  WARN 35360 --- [Aws Cost] [nio-8080-exec-1] s.a.a.p.internal.ProfileFileReader       : Warning: Duplicate property 'environment' detected on line 151. The later one in the file will be used.
-********----->: Profile=AmeriBen-uat | Env=UAT
-Model contents R12 :
-Product$P360: 0.0010147427
-Product$IPLUS: 64.7645322251
-Product$FSX-VOL1: 40.7734591352
-Product$COMMON: 242.2112288465
-Product$QLIK-SENSE: 192.7476597774
-Product$QLIK-COMPOSE: 929.7209864013
-Product$INSITZ: 21.448427358
-Product$WPLUS: 23.2195489233
-Product$: 146.7844375556
-Product$IPLUS-API: 54.1348982546
-Product$QLIK-REPLICATE: 992.8438464448
-Product$CAPS-VIEW: 2.4837621532
-Product$EDIFECS: 26.9067099305
-Product$DB-SERVER2: 802.9235625883
-Product$DB-SERVER1: 964.9381692474
-Model contents R13 :
-Product$: 0
-Product$IPLUS: 387.4402987691
-Product$IPLUS-API: 68.7330711573
-Product$QLIK-SENSE: 194.9472840107
-Product$CAPS-VIEW: 100.7565385992
-Product$EDIFECS: 219.5461044
-Product$DB-SERVER2: 219.5461044
-Product$INSITZ: 16.9337888166
-Product$DB-SERVER1: 219.496841087
-Product$WPLUS: 146.934521816
-Model contents H4 & H5:
-Usage: 4485.4422435839
-Bundled Discount: 0
-Enterprise Discount Program Discount: 0
-SavingsPlanCoveredUsage: 1574.3345530559
-SavingsPlanNegation: 0
-Tax: 20.46
-Model contents R14 :
-AWS Step Functions: 0.0000181248
-AWS CloudFormation: 0
-Amazon Simple Email Service: 0.0385738536
-AWS Glue: 0.000066815
-Amazon Simple Notification Service: 0
-Tax: 20.46
-Amazon GuardDuty: 50.4109288784
-CodeBuild: 0.87745
-Amazon FSx: 0.4816721062
-AmazonCloudWatch: 20.0284775586
-AWS Key Management Service: 0.02113125
-Amazon Simple Workflow Service: 0.0000151303
-AWS CodePipeline: 0.41538
-AWS CloudShell: 0.0000000558
-Amazon Elastic Container Service: 0
-AWS Lambda: 0
-Amazon Simple Storage Service: 0.0720361147
-Amazon Glacier: 0.0000000458
-AWS CloudTrail: 0
-Amazon Virtual Private Cloud: 39.4686746605
-EC2 - Other: 8.3047797734
-Common EC2 Services: 368.96000000000004
-AWS HealthImaging: 0.0002737322
-Amazon EC2 Container Registry (ECR): 0.6610072909
-Amazon Elastic Compute Cloud - Compute: 0
-AWS Secrets Manager: 3.1000431061
-Amazon Simple Queue Service: 1.4296090593
-AWS Cost Explorer: 1.0143
-Consolidated Raw AWS data saved to: C:\Users\143500\costsheet\output\USTHP_AmeriBen_AWS_SERVICE_COST_MAY26-V2.json
+# ---- 6. AdvancedExcelProcessor.java ----
+Set-Content "$proj\excel\AdvancedExcelProcessor.java" @'
+package com.healthproof.intplus.awscost.excel;
+import com.healthproof.intplus.awscost.Model;
+import com.healthproof.intplus.awscost.util.ExcelMapper;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.ss.util.CellReference;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import java.io.*;
+import java.math.*;
+import java.nio.file.*;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import static com.healthproof.intplus.awscost.util.DateUtil.getRequiredDate;
+@Service
+public class AdvancedExcelProcessor {
+    @Value("${excel.template.file.path}") private String templateFilePath;
+    @Value("${excel.template.file.name}") private String templateFileName;
+    @Value("${excel.input.file.path}") private String inputFilePath;
+    @Value("${excel.input.file.name}") private String inputFileName;
+    @Value("${excel.output.file.path}") private String outFilePath;
+    private Workbook workbook; private Sheet sheet; private String fileName;
+    public void start(String companyName, List<String> environments, List<Model> models, String monthYearName) throws IOException {
+        String basePattern = "USTHP_" + companyName + "_AWS_SERVICE_COST_" + monthYearName + "-V";
+        File outputDir = new File(outFilePath);
+        if (!outputDir.exists()) outputDir.mkdirs();
+        File[] existing = outputDir.listFiles((d, n) -> n.startsWith(basePattern) && n.endsWith(ExcelMapper.FILE_EXTENSION));
+        int version = 1;
+        if (existing != null) {
+            for (File f : existing) {
+                try {
+                    String vPart = f.getName().substring(basePattern.length(), f.getName().length() - ExcelMapper.FILE_EXTENSION.length());
+                    int x = Integer.parseInt(vPart);
+                    if (x >= version) version = x + 1;
+                } catch (Exception ignored) {}
+            }
+        }
+        this.fileName = basePattern + version + ExcelMapper.FILE_EXTENSION;
+        
+        String tplPath = templateFilePath + File.separator + companyName.toLowerCase() + "_template.xlsx";
+        File tplFile = new File(tplPath);
+        if (!tplFile.exists()) tplPath = templateFilePath + File.separator + templateFileName + ExcelMapper.FILE_EXTENSION;
+        try (FileInputStream fis = new FileInputStream(tplPath)) { this.workbook = new XSSFWorkbook(fis); }
+
+        for (int i = 0; i < environments.size(); i++) {
+            String env = environments.get(i); Model model = models.get(i);
+            String sheetName = companyName + "-" + env;
+            sheet = workbook.getSheet(sheetName);
+            if (sheet == null) {
+                for(int s=0; s<workbook.getNumberOfSheets(); s++){
+                    if(workbook.getSheetName(s).equalsIgnoreCase(sheetName)){ sheet = workbook.getSheetAt(s); break; }
+                }
+            }
+            if (sheet == null) { System.out.println("Sheet not found: "+sheetName); continue; }
+            
+            initSheet(companyName, env);
+            writeR12(model.getModelMapR12(), companyName, env);
+            writeR14(model.getModelMapR14(), companyName, env);
+            writeR13(model.getModelMapR13(), companyName, env);
+            writeESPCost();
+            writeH4H5(model.getModelMapH4H5(), companyName, env);
+        }
+        writeExcel(); copyFileToInputDirectory();
+    }
+    private boolean check(String c,String e){return sheet!=null&&sheet.getSheetName().equalsIgnoreCase(c+"-"+e);}
+    private void initSheet(String c,String e){
+        if(!check(c,e))return;
+        setStr("H3",getRequiredDate());setNum("H4",0);setNum("H5",0);setNum("H6",0);
+        for(int i=1;i<27;i++){
+            if(sheet.getRow(11)!=null && sheet.getRow(11).getCell(i)!=null) sheet.getRow(11).getCell(i).setCellValue(0);
+            if(sheet.getRow(12)!=null && sheet.getRow(12).getCell(i)!=null) sheet.getRow(12).getCell(i).setCellValue(0);
+            if(sheet.getRow(13)!=null && sheet.getRow(13).getCell(i)!=null) sheet.getRow(13).getCell(i).setCellValue(0);
+        }
+    }
+    public void writeH4H5(Map m,String c,String e){
+        if(!check(c,e))return;
+        double onDemand=0; Row r12=sheet.getRow(11); if(r12!=null){for(int i=1;i<=26;i++){Cell cl=r12.getCell(i);if(cl!=null)onDemand+=cl.getNumericCellValue();}}
+        double savings=0;  Row r13=sheet.getRow(12); if(r13!=null){for(int i=1;i<=26;i++){Cell cl=r13.getCell(i);if(cl!=null)savings+=cl.getNumericCellValue();}}
+        setNum("H4",new BigDecimal(onDemand).setScale(2,RoundingMode.HALF_UP).doubleValue());
+        setNum("H5",new BigDecimal(savings).setScale(2,RoundingMode.HALF_UP).doubleValue());
+    }
+    public void writeR12(Map m,String c,String e){
+        if(!check(c,e))return;
+        setNum("B12",bd(val(m,ExcelMapper.B12)));setNum("C12",bd(val(m,ExcelMapper.C12)));setNum("D12",bd(val(m,ExcelMapper.D12)));
+        setNum("H12",bd(val(m,ExcelMapper.H12)));setNum("I12",bd(val(m,ExcelMapper.I12)));setNum("J12",bd(val(m,ExcelMapper.J12)));
+        setNum("K12",bd(val(m,ExcelMapper.K12)));setNum("N12",bd(val(m,ExcelMapper.N12)));setNum("O12",bd(val(m,ExcelMapper.O12)));
+        setNum("P12",bd(val(m,ExcelMapper.P12)));setNum("Q12",bd(val(m,ExcelMapper.Q12)));setNum("R12",bd(val(m,ExcelMapper.R12)));
+        setNum("S12",bd(val(m,ExcelMapper.S12)));setNum("T12",bd(val(m,ExcelMapper.T12)));setNum("U12",bd(val(m,ExcelMapper.U12)));
+        if(c.equalsIgnoreCase("IBX")&&e.equalsIgnoreCase("PROD"))setNum("U12",bd(val(m,ExcelMapper.U12_1)));
+        setNum("V12",bd(val(m,ExcelMapper.V12)));
+    }
+    public void writeR14(Map m,String c,String e){if(!check(c,e))return;setNum("W12",bd(val(m,ExcelMapper.W12)));setNum("Y12",bd(val(m,ExcelMapper.Y12)));}
+    public void writeR13(Map m,String c,String e){
+        if(!check(c,e))return;
+        setNum("B13",bd(val(m,ExcelMapper.B13)));setNum("C13",bd(val(m,ExcelMapper.C13)));setNum("D13",bd(val(m,ExcelMapper.D13)));
+        setNum("H13",bd(val(m,ExcelMapper.H13)));setNum("I13",bd(val(m,ExcelMapper.I13)));setNum("J13",bd(val(m,ExcelMapper.J13)));
+        setNum("K13",bd(val(m,ExcelMapper.K13)));setNum("N13",bd(val(m,ExcelMapper.N13)));setNum("O13",bd(val(m,ExcelMapper.O13)));
+        setNum("P13",bd(val(m,ExcelMapper.P13)));setNum("Q13",bd(val(m,ExcelMapper.Q13)));setNum("Y13",bd(val(m,ExcelMapper.Y13)));
+        if(c.equalsIgnoreCase("IBX")&&e.equalsIgnoreCase("CS"))setNum("W13",bd(val(m,ExcelMapper.W13)));
+    }
+    private void writeESPCost(){setNum("H6",0);setNum("AA12",0);}
+    private double bd(String v){return new BigDecimal(v).setScale(2,RoundingMode.HALF_UP).doubleValue();}
+    private String val(Map<String,String> m,String k){return m.get(k)!=null?m.get(k).toString():"0";}
+    private void setNum(String ref, double val) {
+        Cell c = getCell(ref);
+        if (c != null) { c.setCellValue(val); }
+    }
+    private void setStr(String ref, String val) {
+        Cell c = getCell(ref);
+        if (c != null) c.setCellValue(val);
+    }
+    private Cell getCell(String ref) {
+        CellReference cr = new CellReference(ref);
+        Row r = sheet.getRow(cr.getRow());
+        if (r == null) r = sheet.createRow(cr.getRow());
+        Cell c = r.getCell(cr.getCol());
+        if (c == null) c = r.createCell(cr.getCol());
+        return c;
+    }
+    private void writeExcel() throws IOException {
+        try (FileOutputStream fos = new FileOutputStream(outFilePath + File.separator + fileName)) { workbook.write(fos); }
+    }
+    private void copyFileToInputDirectory() throws IOException {
+        Path src = Paths.get(outFilePath, fileName);
+        Path dest = Paths.get(inputFilePath, inputFileName + ExcelMapper.FILE_EXTENSION);
+        Files.copy(src, dest, StandardCopyOption.REPLACE_EXISTING);
+    }
+    public String getFileName() { return fileName; }
+}
+'@
